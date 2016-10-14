@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95206421DB097A600E92A9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95206411DB097A600E92A9B /* AppDelegate.swift */; };
+		F95206441DB097A600E92A9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95206431DB097A600E92A9B /* ViewController.swift */; };
+		F95206471DB097A600E92A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95206451DB097A600E92A9B /* Main.storyboard */; };
+		F95206491DB097A600E92A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95206481DB097A600E92A9B /* Assets.xcassets */; };
+		F952064C1DB097A600E92A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F952064A1DB097A600E92A9B /* LaunchScreen.storyboard */; };
+		F95206541DB099F100E92A9B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95206531DB099F100E92A9B /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F952063E1DB097A600E92A9B /* SOBarCodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOBarCodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95206411DB097A600E92A9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F95206431DB097A600E92A9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F95206461DB097A600E92A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F95206481DB097A600E92A9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F952064B1DB097A600E92A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F952064D1DB097A600E92A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95206531DB099F100E92A9B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F952063B1DB097A600E92A9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95206541DB099F100E92A9B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F95206351DB097A500E92A9B = {
+			isa = PBXGroup;
+			children = (
+				F95206531DB099F100E92A9B /* AVFoundation.framework */,
+				F95206401DB097A600E92A9B /* SOQRCodeReader */,
+				F952063F1DB097A600E92A9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F952063F1DB097A600E92A9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F952063E1DB097A600E92A9B /* SOBarCodeReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F95206401DB097A600E92A9B /* SOQRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				F95206411DB097A600E92A9B /* AppDelegate.swift */,
+				F95206431DB097A600E92A9B /* ViewController.swift */,
+				F95206451DB097A600E92A9B /* Main.storyboard */,
+				F95206481DB097A600E92A9B /* Assets.xcassets */,
+				F952064A1DB097A600E92A9B /* LaunchScreen.storyboard */,
+				F952064D1DB097A600E92A9B /* Info.plist */,
+			);
+			path = SOQRCodeReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F952063D1DB097A600E92A9B /* SOBarCodeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95206501DB097A600E92A9B /* Build configuration list for PBXNativeTarget "SOBarCodeReader" */;
+			buildPhases = (
+				F952063A1DB097A600E92A9B /* Sources */,
+				F952063B1DB097A600E92A9B /* Frameworks */,
+				F952063C1DB097A600E92A9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOBarCodeReader;
+			productName = SOQRCodeReader;
+			productReference = F952063E1DB097A600E92A9B /* SOBarCodeReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F95206361DB097A500E92A9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = myCompany;
+				TargetAttributes = {
+					F952063D1DB097A600E92A9B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F95206391DB097A500E92A9B /* Build configuration list for PBXProject "SOBarCodeReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F95206351DB097A500E92A9B;
+			productRefGroup = F952063F1DB097A600E92A9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F952063D1DB097A600E92A9B /* SOBarCodeReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F952063C1DB097A600E92A9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F952064C1DB097A600E92A9B /* LaunchScreen.storyboard in Resources */,
+				F95206491DB097A600E92A9B /* Assets.xcassets in Resources */,
+				F95206471DB097A600E92A9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F952063A1DB097A600E92A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95206441DB097A600E92A9B /* ViewController.swift in Sources */,
+				F95206421DB097A600E92A9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F95206451DB097A600E92A9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F95206461DB097A600E92A9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F952064A1DB097A600E92A9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F952064B1DB097A600E92A9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F952064E1DB097A600E92A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hitesh Trivedi (8GJS35V9KM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hitesh Trivedi (8GJS35V9KM)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "de9c826b-c139-4d0b-8bf3-d078befeb187";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F952064F1DB097A600E92A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hitesh Trivedi (8GJS35V9KM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hitesh Trivedi (8GJS35V9KM)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "de9c826b-c139-4d0b-8bf3-d078befeb187";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F95206511DB097A600E92A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hitesh Trivedi (8GJS35V9KM)";
+				INFOPLIST_FILE = SOQRCodeReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestmedicine.iameb;
+				PRODUCT_NAME = SOBarCodeReader;
+				PROVISIONING_PROFILE = "de9c826b-c139-4d0b-8bf3-d078befeb187";
+			};
+			name = Debug;
+		};
+		F95206521DB097A600E92A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hitesh Trivedi (8GJS35V9KM)";
+				INFOPLIST_FILE = SOQRCodeReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestmedicine.iameb;
+				PRODUCT_NAME = SOBarCodeReader;
+				PROVISIONING_PROFILE = "de9c826b-c139-4d0b-8bf3-d078befeb187";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F95206391DB097A500E92A9B /* Build configuration list for PBXProject "SOBarCodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F952064E1DB097A600E92A9B /* Debug */,
+				F952064F1DB097A600E92A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95206501DB097A600E92A9B /* Build configuration list for PBXNativeTarget "SOBarCodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95206511DB097A600E92A9B /* Debug */,
+				F95206521DB097A600E92A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F95206361DB097A500E92A9B /* Project object */;
+}
